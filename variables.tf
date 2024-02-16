@@ -43,7 +43,7 @@ variable "ecs_task_execution_role" {
 variable "ecs_task_name" {
     description = "ECS Task Name"
     type = string
-    default = "arn:aws:iam::392409988284:role/ecsTaskExecutionRole"
+    default = "ecs-task"
 }
 
 variable "ec2_type" {
